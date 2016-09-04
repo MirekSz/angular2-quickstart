@@ -3,7 +3,7 @@ import {Routes, RouterModule} from '@angular/router';
 
 import {HeroesComponent}      from './heros/heroes.component';
 import {DashboardComponent} from "./dashboard/dashboard.component";
-import {HeroDetailComponent} from "./details/hero-detail.component";
+import {HeroDetailComponent} from "./heros/details/hero-detail.component";
 
 const appRoutes: Routes = [
   {
