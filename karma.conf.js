@@ -9,7 +9,8 @@ module.exports = function(config) {
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
-      require('karma-htmlfile-reporter')
+      require('karma-htmlfile-reporter'),
+      require("karma-ubuntu-reporter"),
     ],
 
     customLaunchers: {
@@ -66,7 +67,7 @@ module.exports = function(config) {
 
     exclude: [],
     preprocessors: {},
-    reporters: ['progress', 'html'],
+    reporters: ['progress', 'html','ubuntu'],
 
     // HtmlReporter configuration
     htmlReporter: {

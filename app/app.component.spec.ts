@@ -1,5 +1,5 @@
 /* tslint:disable:no-unused-variable */
-import { AppComponent } from './app.component';
+import { HeroesComponent } from './heros/heroes.component';
 
 import { async, inject } from '@angular/core/testing';
 
@@ -8,6 +8,7 @@ import { TestComponentBuilder } from '@angular/core/testing';
 import { By }             from '@angular/platform-browser';
 import { provide }        from '@angular/core';
 import { ViewMetadata }   from '@angular/core';
+import {AppComponent} from "./app.component";
 
 ////////  SPECS  /////////////
 
